@@ -60,10 +60,10 @@
 .spinner { /* Spinner */
   border: 8px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
+  animation: spin 1s linear infinite;
   border-top: 8px solid #fff;
   width: 51px;
   height: 51px;
-  animation: spin 1s linear infinite;
 }
 
 /* Spinner animation */
@@ -100,14 +100,15 @@ zoom: 0.99;
 /* Dropdown button styles */
 .Navbar .dropdown-btn {
   background-color: #f9f9f9;
-  color: black;
-  border: 1px solid #ccc;
-  padding: 5px 10px;
   cursor: pointer;
   outline: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  
   border-radius: 4px;
     @media (max-width: 768px) {
   padding: 5px 8px;
@@ -135,13 +136,13 @@ zoom: 0.99;
 .Navbar .dropdown-content {
   display: block;
   position: absolute;
-  background-color: #f9f9f9;
   min-width: 160px;
   overflow: auto;
   border: 1px solid #ccc;
   z-index: 1;
   top: 125%;
   left: 0;
+  background-color: #f9f9f9;
   width: 300px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -191,12 +192,12 @@ zoom: 0.99;
 
 .Dashboard-Container {
   height: calc(100% - 60px);
-  padding: 25px;
   gap: 21px;
   width: 100%;
   overflow-x: hidden;
   zoom: 0.75;
   display: flex;
+  padding: 25px;
   flex-wrap: wrap;
   @media (max-width: 768px) {
   padding: 15px;
@@ -288,11 +289,11 @@ body {
   padding: 21px;
   border-radius: 11px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 15px;
 }
 
 .card .card-content {
@@ -344,13 +345,14 @@ body {
 .card .card-footer .feature-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 1px solid #ada4a48e;
   width: fit-content;
   border-radius: 3px;
   padding: 0px 3px;
   margin-left: 4px;
   margin-top: 4px;
+  align-items: center;
+  border: 1px solid #ada4a48e;
+  
 }
 
 .card .card-footer .feature-container i {
@@ -416,10 +418,11 @@ body {
 
 .icon-text-priority .text {
   font-weight: 600;
-  color: black;
   font-size: 16px;
   padding-right: 12px;
   margin-bottom: -2px;
+  color: black;
+  
 }
 
 .icon-text-priority i {
@@ -451,4 +454,4 @@ body {
   margin-bottom: -2px;
 }
 
-/* Style DONE  */
+/* Style Done */

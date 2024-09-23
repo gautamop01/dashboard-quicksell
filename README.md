@@ -87,7 +87,7 @@ npm run build
 
 1. **Kanban Board Overview**
 
-   ![Kanban Overview](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1a13657-9dc2-496d-a5c7-b27be15e9fe0/Untitled.png)
+   ![Kanban Overview](https://quicksell.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe1a13657-9dc2-496d-a5c7-b27be15e9fe0%2FUntitled.png?table=block&id=75915abe-d0ca-4b26-a2bb-ff9afc607a10&spaceId=867c6222-5e73-49fb-b21f-a276ba2d258b&width=960&userId=&cache=v2)
 
 2. **Group by User**
 

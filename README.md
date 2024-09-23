@@ -34,7 +34,7 @@ Make sure you have the following installed:
 2. Navigate to the project directory:
 
    ```bash
-   cd kanban-board
+   cd dashboard-quicksell
    ```
 
 3. Install dependencies:
@@ -52,7 +52,7 @@ Make sure you have the following installed:
 5. Open the application in your browser:
 
    ```bash
-   http://localhost:3000
+   http://localhost:5173/
    ```
 
 ### Build for Production

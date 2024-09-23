@@ -91,8 +91,12 @@ npm run build
 
 2. **Group by User**
 
-   ![Group by User](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de6f9ade-433a-4185-a6df-4d396ea8be2d/Untitled.png)
+   ![Group by User](https://quicksell.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fde6f9ade-433a-4185-a6df-4d396ea8be2d%2FUntitled.png?table=block&id=1bd1ded2-dd31-4d99-aa0b-e185b0d11c4f&spaceId=867c6222-5e73-49fb-b21f-a276ba2d258b&width=960&userId=&cache=v2)
 
 3. **Group by Priority**
 
-   ![Group by Priority](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f8e52ba-2b96-40e8-be6a-34e25dd240eb/Untitled.png)
+   ![Group by Priority](https://quicksell.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2f8e52ba-2b96-40e8-be6a-34e25dd240eb%2FUntitled.png?table=block&id=7525c21b-79f1-41fd-8de2-5a23f0a620d3&spaceId=867c6222-5e73-49fb-b21f-a276ba2d258b&width=560&userId=&cache=v2)
+
+4. ** Card Design **
+
+   ![Group by Priority](https://quicksell.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F896834d4-fe3d-4db5-bd76-29049439b0cb%2FUntitled.png?table=block&id=847efe1c-028b-4ba5-8a6d-d7f64666fbce&spaceId=867c6222-5e73-49fb-b21f-a276ba2d258b&width=560&userId=&cache=v2)

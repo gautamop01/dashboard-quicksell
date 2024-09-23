@@ -1,12 +1,14 @@
-.user-avatar {
-  width: 22px;
-  height: 22px;
+/* Styles for the application */
+
+.user-avatar { /* User avatar styles */
+  width: 23px;
+  height: 23px;
   border: 1px solid transparent;
   border-radius: 50%;
   position: relative;
 }
 
-.user-avatar::after {
+.user-avatar::after {  /* User avatar status styles */
   content: "";
   width: 8px;
   height: 7px;
@@ -20,15 +22,15 @@
   right: 0;
 }
 
-.user-avatar-unavailable {
-  width: 22px;
-  height: 22px;
+.user-avatar-unavailable { /* User avatar unavailable styles */
+  width: 23px;
+  height: 23px;
   border: 1px solid transparent;
   border-radius: 50%;
   position: relative;
 }
 
-.user-avatar-unavailable::after {
+.user-avatar-unavailable::after { /* User avatar unavailable status styles */ 
   content: "";
   width: 8px;
   height: 7px;
@@ -42,7 +44,7 @@
   right: 0;
 }
 
-.spinner-backdrop {
+.spinner-backdrop { /* Spinner backdrop styles */
   position: fixed;
   top: 0;
   left: 0;
@@ -55,15 +57,16 @@
   z-index: 1000;
 }
 
-.spinner {
+.spinner { /* Spinner */
   border: 8px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   border-top: 8px solid #fff;
-  width: 50px;
-  height: 50px;
+  width: 51px;
+  height: 51px;
   animation: spin 1s linear infinite;
 }
 
+/* Spinner animation */
 @keyframes spin {
   0% {
       transform: rotate(0deg);
@@ -73,18 +76,20 @@
   }
 }
 
+/* Styles for the Navbar */
 .Navbar {
 width: 100%;
 background-color: white;
-height: 50px;
+height: 51px;
 padding: 10px 30px;
-zoom: 0.9;
+zoom: 0.99;
 
 @media (max-width: 768px) {
   padding: 10px;
 }
 }
 
+/* Navbar logo styles */
 .Navbar .dropdown-container {
   position: relative;
   display: inline-block;
@@ -92,7 +97,7 @@ zoom: 0.9;
   display: block;
 }
 }
-
+/* Dropdown button styles */
 .Navbar .dropdown-btn {
   background-color: #f9f9f9;
   color: black;
@@ -109,11 +114,13 @@ zoom: 0.9;
 }
 }
 
+/* Dropdown button icon styles */
 .Navbar .dropdown-btn i {
   color: #3b3a3a;
   font-size: 16px;
 }
 
+/* Dropdown button div styles */
 .Navbar .dropdown-btn div {
   font-size: 14px;
   margin-bottom: -1px;
@@ -124,6 +131,7 @@ zoom: 0.9;
   background-color: #f1f1f1;
 }
 
+/* Dropdown content styles */
 .Navbar .dropdown-content {
   display: block;
   position: absolute;
@@ -139,12 +147,12 @@ zoom: 0.9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 8px;
    @media (max-width: 768px) {
-  top: 50px;
+  top: 51px;
   width: 200px;
 }
 }
 
-
+/* Dropdown content div styles and hover styles */
 .Navbar .dropdown-content .Grouping,
 .Navbar .dropdown-content .Ordering {
   display: flex;
@@ -159,6 +167,8 @@ zoom: 0.9;
 }
 }
 
+/* ================== Below styles are for the dropdown content ================== */
+
 .Navbar .dropdown-content label {
   font-size: 14px;
   color: #8a8585;
@@ -168,7 +178,7 @@ zoom: 0.9;
 .Navbar .dropdown-content select {
   border-radius: 0 !important;
   padding: 3px;
-  padding-right: 20px;
+  padding-right: 21px;
   border: 1px solid #ccc;
 }
 
@@ -182,7 +192,7 @@ zoom: 0.9;
 .Dashboard-Container {
   height: calc(100% - 60px);
   padding: 25px;
-  gap: 20px;
+  gap: 21px;
   width: 100%;
   overflow-x: hidden;
   zoom: 0.75;
@@ -195,10 +205,10 @@ zoom: 0.9;
 
 .Dashboard-Container .column {
   flex: 1;
-  max-width: calc(100% - 20px);
+  max-width: calc(100% - 21px);
   border-radius: 8px;
    @media (min-width: 768px) {
-    max-width: calc(20% - 20px);
+    max-width: calc(20% - 21px);
   }
 }
 
@@ -217,7 +227,7 @@ zoom: 0.9;
 }
 
 .Dashboard-Container .Header .icon-text img {
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .Dashboard-Container .Header .icon-text .text {
@@ -253,16 +263,18 @@ zoom: 0.9;
 }
 
 .Dashboard-Container .Header .actions i {
-  font-size: 22px;
+  font-size: 23px;
   color: #8a8585;
 }
 
+/* ================== Below styles are for the card component ================== */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Styles for the body */
 body {
   background-color: #eaeaeaa3;
   font-family: 'Montserrat', sans-serif;
@@ -270,10 +282,11 @@ body {
   height: 100%;
 }
 
+/* ================== Below styles are for the card component ================== */
 .card {
   width: 100%;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 21px;
+  border-radius: 11px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   display: flex;
@@ -293,13 +306,13 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   justify-content: space-between;
 }
 
 .card .card-header p {
   font-family: "Arial", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   color: #5d5d5db8;
   margin-right: 10px;
   font-weight: 600;
@@ -325,7 +338,7 @@ body {
 }
 
 .card .card-footer .icons {
-  height: 20px !important;
+  height: 21px !important;
 }
 
 .card .card-footer .feature-container {
@@ -359,6 +372,8 @@ body {
   padding: 2px 3px;
 }
 
+/* ================== Below styles are for the modal component ================== */
+
 .status-heading {
   display: flex;
 }
@@ -387,6 +402,8 @@ body {
   color: rgb(80, 55, 206);
 }
 
+/* ================== Below styles are for the priority component ================== */
+
 .icon-text-priority {
   display: flex;
   align-items: center;
@@ -406,12 +423,12 @@ body {
 }
 
 .icon-text-priority i {
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .icon-text-priority #noPriority {
   color: #8a8585;
-  margin-right: 20px;
+  margin-right: 21px;
 }
 
 .icon-text-priority #low {
